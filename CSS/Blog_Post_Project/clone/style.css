@@ -1,4 +1,3 @@
-
 body {
   font-family: Mukta, sans-serif;
   font-size: 16px; /* explicitly set font size */
@@ -24,6 +23,31 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 50px;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 38px;
+  letter-spacing: 0;
+}
+
+h4 {
+  font-size: 30px;
+  letter-spacing: 0.25px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 0.25px;
+}
+
+h6 {
+  font-size: 20px;
+  letter-spacing: 0.25px;
+}
+
 .hero {
   background-color: #863ae8;
   color: white;
@@ -46,7 +70,55 @@ h1 {
   margin: 32px 0;
 }
 
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+}
 
+.info {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Bitter, serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+.info span {
+  color: #e95400;
+}
+
+.headline {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin: 40px 0;
+  font-size: 18px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 14px;
+  border-left: 2px solid #e95400;
+  padding-left: 16px;
+  margin: 32px 0 32px 32px;
+}
+
+.quote cite {
+  display: block;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.content h3 {
+  text-transform: capitalize;
+}
+
+code {
+  color: #e95400;
+  font-weight: bold;
+}
 
 footer {
   background-color: #863ae8;
@@ -72,6 +144,5 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-
   text-decoration: underline;
 }

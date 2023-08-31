@@ -1,0 +1,47 @@
+
+body {
+  font-family: Mukta, sans-serif;
+  font-size: 16px; /* explicitly set font size */
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Bitter, serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  margin: 0;
+}
+
+.hero {
+  background-color: #863ae8;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1, .hero p {
+  width: 75%;
+  max-width: 900px;
+  margin: 16px 0;
+}
+
+.hero hr {
+  width: 50%;
+  margin: 32px 0;
+}

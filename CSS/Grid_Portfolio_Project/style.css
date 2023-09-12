@@ -1,14 +1,10 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .project {
-  width: 300px;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .project img {
@@ -35,8 +31,12 @@ body {
   transition: all 0.2s ease;
 }
 
-
 .project .overlay:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+.project-grid {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }

@@ -14,6 +14,10 @@ body {
   padding: 64px 0;
 }
 
+.navbar .hamburger {
+  display: none;
+}
+
 .navbar .left {
   font-size: 32px;
   font-weight: bold;
@@ -38,6 +42,19 @@ body {
 
 .navbar .right a:hover {
   text-decoration: underline;
+}
+
+.navbar .hamburger {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar .hamburger .bar {
+  background-color: black;
+  height: 4px;
+  width: 36px;
+  margin: 3px;
+  border-radius: 10px;
 }
 
 .project {
@@ -151,10 +168,33 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar {
+    box-sizing: border-box;
+    padding: 16px 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+  }
+
+  .navbar .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar .right {
+    display: none;
+  }
+
   .footer {
     font-size: 14px;
     padding: 32px;
   }
+
   .project-grid {
     max-width: 100%;
     grid-template-areas:
@@ -166,6 +206,7 @@ body {
       "cup cup"
       "foam foam"
       "dimensional dimensional";
+    margin-top: 100px;
   }
 
   .project .overlay {

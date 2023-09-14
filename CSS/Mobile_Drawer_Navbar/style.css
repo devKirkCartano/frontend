@@ -220,6 +220,12 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 816px) {
+  .mobileNav {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 815px) {
   .navbar {
     box-sizing: border-box;

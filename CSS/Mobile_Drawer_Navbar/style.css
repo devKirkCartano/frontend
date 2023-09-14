@@ -25,6 +25,18 @@ body {
 .navbar .left {
   font-size: 32px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .description {
+  font-size: 14px;
+  margin: 0 32px;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.2);
 }
 
 .navbar .right {
@@ -208,7 +220,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 815px) {
   .navbar {
     box-sizing: border-box;
     padding: 16px 24px;

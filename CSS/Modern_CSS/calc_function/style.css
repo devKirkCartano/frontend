@@ -1,0 +1,50 @@
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.box1 {
+  background-color: blue;
+  width: 40%;
+  height: 500px;
+  float: left;
+  margin-right: 20px;
+}
+
+.box2 {
+  background-color: red;
+  height: 500px;
+  width: calc(60% - 20px);
+  float: right;
+}
+
+.box {
+  background-color: cyan;
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+.tinybox {
+  background-color: magenta;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 100px);
+}

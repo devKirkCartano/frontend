@@ -12,6 +12,10 @@ body {
 .toggle + label {
   position: relative;
   padding-left: 5rem;
+  /* center form control with label with flexbox */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .toggle + label::before {
@@ -21,6 +25,7 @@ body {
   height: 2.5rem;
   border-radius: 1.25rem;
   position: absolute;
+  top: -50%; /* center form control without flexbox */
   left: 0;
   transition: background-color 0.2s;
 }
@@ -37,7 +42,8 @@ body {
   border-radius: 50%;
   background-color: white;
   position: absolute;
-  left: 0.25rem;
+  top: -25%;
+  left: 0.25rem; /* center form control without flexbox */
   transition: transform 0.2s;
 }
 

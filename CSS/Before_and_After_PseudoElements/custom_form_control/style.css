@@ -12,9 +12,6 @@ body {
 .toggle + label {
   position: relative;
   padding-left: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .toggle + label::before {

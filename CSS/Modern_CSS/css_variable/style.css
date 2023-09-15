@@ -1,0 +1,15 @@
+:root {
+  --brand-color: rgba(107, 0, 128, 0.726);
+}
+
+button {
+  background-color: var(--brand-color);
+}
+
+h1 {
+  color: var(--brand-color);
+}
+
+div {
+  border: 3px solid var(--brand-color);
+}

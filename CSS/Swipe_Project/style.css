@@ -51,6 +51,10 @@ body {
   align-items: center;
 }
 
+main {
+  width: 100%;
+}
+
 h1 {
   font-family: var(--heading-font);
   font-weight: 600;
@@ -76,7 +80,6 @@ h3 {
   margin: 0;
   width: 100%;
   letter-spacing: -0.25px;
-  line-height: var(--h2-line-height);
 }
 
 h4 {
@@ -291,6 +294,12 @@ main {
   margin: var(--spacing-xl) 0;
 }
 
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .button-container {
   display: flex;
   margin: var(--spacing-md) 0;
@@ -316,6 +325,12 @@ main {
 }
 
 /* Partners Section */
+.partners-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .partners-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -333,6 +348,9 @@ main {
 /* Unified Platform Section */
 .unified-platform-section {
   padding: var(--spacing-xl) 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .unified-platform-section h2 {
@@ -350,6 +368,12 @@ main {
 }
 
 /*  Graphic Grid Section */
+.graphic-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .graphic-grid {
   display: grid;
   grid-template-areas:
@@ -385,6 +409,9 @@ main {
 .integrations-section {
   color: var(--text-light);
   background-color: var(--primary-accent);
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .integrations-section .card-container {
@@ -421,6 +448,12 @@ main {
   border-radius: 20px;
 }
 
+.why-swipe-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* Why Swipe Section */
 .why-swipe-section .card-container {
   display: flex;
@@ -436,4 +469,39 @@ main {
 
 .why-swipe-section .secondary-text {
   color: var(--text-dark);
+}
+
+/* Global Section */
+.global-section {
+  background-color: var(--primary-accent);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: var(--text-light);
+}
+
+.global-section a {
+  color: var(--blue-1);
+}
+
+.global-section a:hover {
+  color: var(--text-light);
+}
+
+.global-section .card-container {
+  display: flex;
+  margin: calc(var(--spacing-xl) * 2) 0;
+}
+
+.global-section .card-container .card {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 0 var(--spacing-sm) 0 0;
+  margin: 0 var(--spacing-md) 0 0;
+}
+
+.global-section .card-container .card h3 {
+  border-left: 2px solid var(--blue-1);
+  padding: 0 0 0 var(--spacing-sm);
+  line-height: 28px;
 }

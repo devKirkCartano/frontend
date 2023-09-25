@@ -355,6 +355,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: var(--bg-light);
 }
 
 .unified-platform-section h2 {
@@ -376,6 +377,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: var(--bg-light);
 }
 
 .graphic-grid {

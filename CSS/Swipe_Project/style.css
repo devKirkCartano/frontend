@@ -784,11 +784,29 @@ p {
     --h1-line-height: 72px;
     --h3-size: 34px;
   }
+
+  /* Unified platform */
+  .unified-platform-section h2 {
+    width: 100%;
+  }
 }
 
 /* Mobile Size */
 @media only screen and (max-width: 550px) {
   .partners-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .two-column {
+    flex-direction: column;
+  }
+
+  .two-column .col-left {
+    width: 100%;
+  }
+
+  .two-column .col-right {
+    width: 100%;
+    padding: 0;
   }
 }

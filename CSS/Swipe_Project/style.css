@@ -904,6 +904,28 @@ p {
   #sessions-logo {
     width: 300px;
   }
+
+  /* Footer Section */
+  .footer .section-container {
+    flex-wrap: wrap;
+  }
+
+  .footer .section-container .col {
+    width: 50%;
+    margin: var(--spacing-md) 0;
+  }
+
+  .footer .col a {
+    font-size: 12px;
+  }
+
+  #footer-logo {
+    width: 70px;
+  }
+
+  .footer .icon-link img {
+    width: 18px;
+  }
 }
 
 html,

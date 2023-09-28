@@ -36,6 +36,7 @@
   --bg-white: #fff;
   --bg-light: #f7f9fc;
 
+  --standard-border-radius: 20px;
   --standard-box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
   --primary-gradient: linear-gradient(
     101.33deg,
@@ -227,7 +228,7 @@ p {
   font-size: var(--button-font-size);
   letter-spacing: 1.25px;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: var(--standard-border-radius);
   border: none;
   background-color: var(--primary-accent);
   color: var(--text-light);
@@ -245,7 +246,7 @@ p {
   font-size: var(--button-font-size);
   letter-spacing: 1.25px;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: var(--standard-border-radius);
   border: none;
   background-color: transparent;
   color: var(--primary-accent);
@@ -430,6 +431,7 @@ p {
 
 #phone {
   grid-area: phone;
+  box-shadow: none;
 }
 
 #dash {
@@ -439,6 +441,7 @@ p {
 .graphic-grid img {
   width: 100%;
   box-shadow: var(--standard-box-shadow);
+  border-radius: var(--standard-border-radius);
 }
 
 /* Integrations Section */
@@ -501,12 +504,12 @@ p {
 #api-code {
   max-width: 470px;
   margin: 0 0 var(--spacing-md) 0;
-  border-radius: 20px;
+  border-radius: var(--standard-border-radius);
 }
 
 #terminal-code {
   max-width: 470px;
-  border-radius: 20px;
+  border-radius: var(--standard-border-radius);
 }
 
 /* Why Swipe Section */
@@ -624,7 +627,7 @@ p {
   width: 540px;
   height: 446px;
   box-shadow: var(--standard-box-shadow);
-  border-radius: 20px;
+  border-radius: var(--standard-border-radius);
   overflow: hidden;
 }
 
@@ -859,7 +862,7 @@ p {
     width: 50px;
     height: 30px;
     background-color: rgba(250, 250, 250, 0.25);
-    border-radius: 20px;
+    border-radius: var(--standard-border-radius);
     display: flex;
     flex-direction: column;
     justify-content: center;

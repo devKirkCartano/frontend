@@ -806,6 +806,15 @@ p {
   .hero .col-right {
     width: 40%;
   }
+
+  /* Partners Section */
+  .partners-section {
+    margin-top: -60px;
+  }
+
+  .partners-grid {
+    margin: 0 0 var(--spacing-xl) 0;
+  }
 }
 
 /* Custom Breakpoint */
@@ -905,6 +914,11 @@ p {
     transform: translateX(32px);
   }
 
+  /* Partners Section */
+  .partners-section {
+    margin-top: -20px;
+  }
+
   /* Unified platform */
   .unified-platform-section h2 {
     width: 100%;
@@ -1000,6 +1014,10 @@ p {
   }
 
   /* Partners Grid Section */
+  .partners-section {
+    margin: var(--spacing-xl) 0 var(--spacing-sm) 0;
+  }
+
   .partners-grid {
     grid-template-columns: 1fr 1fr;
   }
